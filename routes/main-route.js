@@ -38,9 +38,9 @@ router.post('/snippet/save', async (req, res) => {
   const userId = req.body.userId;
   const title = req.body.title;
   const code = req.body.code;
+  const storedAt = new Date();
 
-  const newSnippet = Snippet({ userId, title, code})
-  console.log(newSnippet)
+  const newSnippet = Snippet({ userId, title, code, storedAt })
 
   const existingSnippet = await Snippet.findOne({$and: [{title: title}, {userId: userId}]}).catch(err => console.error('wat', err));
   if (existingSnippet) return res.status(203).json({ message: 'you already have a snippet with that title'})

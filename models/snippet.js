@@ -13,6 +13,10 @@ const snippetSchema = new Schema({
   code: {
     type: String,
     required: true
+  },
+  storedAt: {
+    type: Date,
+    required: true
   }
 });
 
