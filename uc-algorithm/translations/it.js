@@ -95,7 +95,7 @@ module.exports = {
   "assignment_expression_6": "il rimanente della divisione di se stesso(a) per",
   "assignment_expression_7": "se stesso(a) spostato(a) in bitwise alla sinistra per",
   "assignment_expression_8": "se stesso(a) spostato(a) in bitwise alla destra per",
-  "assignment_expression_9: "se stesso(a) riempito(a) di zeri alla sinistra e spostato(a) in bitwise alla destra per",
+  "assignment_expression_9": "se stesso(a) riempito(a) di zeri alla sinistra e spostato(a) in bitwise alla destra per",
   "assignment_expression_10": "il bitwise E di se stesso(a) e",
   "assignment_expression_11": "il bitwise XOR di se stesso(a) e",
   "assignment_expression_12": "il bitwise O di se stesso(a) e",
